@@ -11,7 +11,7 @@ public class Employee {
 
     private String ename;
 
-    private int d_no;
+    private int dno;
 
     private int salary;
 
@@ -32,11 +32,11 @@ public class Employee {
     }
 
     public int getD_no() {
-        return d_no;
+        return dno;
     }
 
-    public void setD_no(int d_no) {
-        this.d_no = d_no;
+    public void setD_no(int dno) {
+        this.dno = dno;
     }
 
     public int getSalary() {

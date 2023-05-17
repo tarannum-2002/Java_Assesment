@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface DepartmentRepository extends CrudRepository<Department, Integer> {
 
+    List<Department> findBydname(String dname);
 }
 

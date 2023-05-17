@@ -13,7 +13,7 @@ public class Department {
 
     private String dname;
 
-    public int getDno() {
+    public int getdno() {
         return dno;
     }
 
