@@ -1,7 +1,9 @@
 So I have implemented a Hashmap to keep track of all the unique letters of the Stirng.
+the hashmap contains unique elements 
 
 It goes through a loop and there are 2 cases:
-if it the element is not present in the hashmap it means it is aunique element
+if it the element is not present in the hashmap 
+it means it is a unique element
 Hence I increase the count
 
 If the element is present in the hashmap, it is repeated now
