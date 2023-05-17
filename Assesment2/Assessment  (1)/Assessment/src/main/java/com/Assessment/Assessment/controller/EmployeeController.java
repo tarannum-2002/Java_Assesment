@@ -25,6 +25,8 @@ public class EmployeeController {
         this.departmentRepository = departmentRepository;
     }
 
+    
+    //This is for the first sub question
   //  @GetMapping("/api")
 //    public Employee getEmployeeByEno(@RequestParam("ENO") int eno) {
 //        Employee employee = employeeRepository.findById(eno).orElse(null);
@@ -39,6 +41,8 @@ public class EmployeeController {
 // }
 
 
+    
+    //This is for the second sub question
         @GetMapping("/api")
         public List<Employee> getEmployeesByDname(@RequestParam("DNAME") String dname) {
 
@@ -53,7 +57,7 @@ public class EmployeeController {
              List<Employee> employees = employeeRepository.findBydnoIn(dnoList);
 
                 for (int i = 0; i < employees.size(); i++) {
-                    System.out.println(employees);
+                    System.out.println(employees.getEname);
                 }
                 return employees;
             }
